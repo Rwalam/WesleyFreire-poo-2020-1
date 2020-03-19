@@ -1,24 +1,30 @@
 #include <iostream>
+#include <vector>
+
 using namespace std;
 
 
-bool strcmp(string a, string b){
-        if(sizeof(a) != sizeof(b)){
-            return false;
-        }
-        for (int i = 0; i < sizeof(a); i++){
-            if (a[i] != b[i]){
-                return false;
+struct Pessoa{
+    int saude;
+    int fome;
+    int necessidades;
+    int grana;
+    int conta;
+    
+
+    bool trabalhar(){
+        if (this->saude > 0){
+            this->fome += 20;
+            this->saude -= 20;
+            if (this->fome > 100){
+                this->fome = 100;
             }
+            return true;
         }
-        return true;
+        cout << "va se tratar\n";
+        return false;
     }
 
-struct Pessoa{
-    int saude = 100;
-    int fome = 0;
-    int necessidades = 0;
-    
     bool comer(){
         if (this->fome > 20){
             this->fome -= 20;
@@ -32,6 +38,7 @@ struct Pessoa{
         cout << "sem fome\n";
         return false;
     }
+
     bool evacuar(){
         if (this->necessidades > 0){
             this->necessidades = 0;
@@ -41,24 +48,57 @@ struct Pessoa{
         cout << "sem vontade\n";
         return false;
     }
+
+    Pessoa();
+    ~Pessoa();
+
 };
+Pessoa::Pessoa(){
+}
+
+Pessoa::~Pessoa(){
+}
+
+struct Geladeira{
+    int capacidade = 100;
+    int consumo_energia = 0;
+    Pessoa * p{nullptr};
+
+    
+    
+    bool pagar_energia(){
+        if (this->consumo_energia > 0){
+            Pessoa;
+            return true;
+        }
+        cout << "sem debito\n";
+        return false;
+    }
+    
+};
+
 
 int main(){
     Pessoa * pessoa = new Pessoa();
-    string key = " ";
-    while (1){
-        cin >> key;
 
-        if (strcmp(key,"comer")){
+    while (1){
+        string line;
+        getline(cin, line);
+        stringstream ss(line);
+        string cmd;
+        ss >> cmd;
+
+        if ((cmd == "comer")){
             pessoa->comer();
-            cout<<"tete";
+            cout<<"teste";
             cout << pessoa->saude << endl;
             cout << pessoa->fome << endl;
             cout << pessoa->necessidades << endl;
         }
-        if (strcmp(key,"evacuar")){
+        if ((key,"evacuar")){
             pessoa->evacuar();
         }
     }
-    
+
+    delete pessoa;
 }

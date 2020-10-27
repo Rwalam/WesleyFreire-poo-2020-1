@@ -1,9 +1,10 @@
 - O que você fez
-
+  - a sala de cinema o cliente e seus tratamentos
 - Com quem e como você fez
-
+  - só, segui a aula.
 - O que aprendeu e sabe fazer
-
+  - agregar.
 - O que tem dificuldade ainda
-
+  - trabalhar dinamicamente.
 - Quanto tempo levou pra fazer a atividade
+  - 3H

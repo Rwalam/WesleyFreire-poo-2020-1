@@ -1,9 +1,10 @@
 - O que você fez
-
+  - a criança e o brinquedo.
 - Com quem e como você fez
-
+  - só, com o video da aula.
 - O que aprendeu e sabe fazer
-
+  - diferenciar agregação de composição.
 - O que tem dificuldade ainda
-
+  - n sei bem.
 - Quanto tempo levou pra fazer a atividade
+  - 2H.

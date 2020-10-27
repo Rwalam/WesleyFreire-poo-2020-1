@@ -1,9 +1,10 @@
 - O que você fez
-
+  - a classe do pet, seus metodos e tratamentos.
 - Com quem e como você fez
-
+  - pedro espinosa o monitor.
 - O que aprendeu e sabe fazer
-
+  - poo com TAD.
 - O que tem dificuldade ainda
-
+  - não sei.
 - Quanto tempo levou pra fazer a atividade
+  - 1:30H

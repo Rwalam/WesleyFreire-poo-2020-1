@@ -1,9 +1,10 @@
 - O que você fez
-
+  - os novos metodos da favoritagem e a adaptação dos metodos antigos(que tratavam vector) para map
 - Com quem e como você fez
-
+  - só, com a base da video aula.
 - O que aprendeu e sabe fazer
-
+  - usar o map, entendi seus metodos e retornos
 - O que tem dificuldade ainda
-
+  - try catch
 - Quanto tempo levou pra fazer a atividade
+  - 4H

@@ -1,8 +1,8 @@
 - O que você fez
-  - implementei salario com Funcionario puramente virtual e seus herdeiros
+  - implementei salario, com a classe Funcionario puramente virtual e seus herdeiros
   - fiz um "map de funcionarios" para fazer os testes e adicionei o comando "all" para mostrar todos
 - Com quem e como você fez
-  - pedi uma ajudinha do monitor e dei uma revisada no penultimo video
+  - monitor pedro espinosa e dei uma revisada no penultimo video
 - O que aprendeu e sabe fazer
   - mexer com herança, metodos virtuais, evitar slicering, classes puramente virtuais
 - O que tem dificuldade ainda

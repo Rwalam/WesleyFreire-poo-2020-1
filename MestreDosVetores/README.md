@@ -5,6 +5,6 @@
 - O que aprendeu e sabe fazer
   - revisei a mecanica de iterator e iterator inverso.
 - O que tem dificuldade ainda
-  - 
+  - nada
 - Quanto tempo levou pra fazer a atividade
   - 15 min.

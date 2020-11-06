@@ -1,1 +1,10 @@
-a
+- O que você fez
+  - terminei uns detalhes que faltavam no "mestre dos vetores" feito no começo do semestre.
+- Com quem e como você fez
+  - só.
+- O que aprendeu e sabe fazer
+  - revisei a mecanica de iterator e iterator inverso.
+- O que tem dificuldade ainda
+  - 
+- Quanto tempo levou pra fazer a atividade
+  - 15 min.
